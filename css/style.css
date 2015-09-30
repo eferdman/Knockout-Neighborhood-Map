@@ -1,0 +1,87 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+      
+#map {
+  height: 100%;
+  width: 66.6%;
+  float: right;
+}
+
+#filter {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  /*box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);*/
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 10px 10px 10px 20px;
+  text-overflow: ellipsis;
+  width: 300px;
+}
+
+#list-view {
+  width: 33.4%;
+  font-family: Roboto;
+}
+
+#list-view h2 {
+  font-weight: 400;
+  font-size: 40px/1.5;
+  padding: 10px 10px 10px 20px;
+  background: #cadfaa;
+  margin: 0;
+}
+
+#list-view ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#list-view li {
+  font-weight: 200;
+  font-size: 20px/1.5;
+  margin: 0;
+  padding: 0;
+}
+
+#list-view li:first-child {
+  border-top: 1px solid #ccc;
+}
+
+#list-view li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding: 10px 10px 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+#list-view li a:hover {
+  background: #f6f6f6;
+}
+
+#type-selector {
+  color: #fff;
+  background-color: #4d90fe;
+  padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#target {
+  width: 345px;
+}
