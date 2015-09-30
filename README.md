@@ -1,7 +1,5 @@
 # East Bay Parks and Gardens Map
 
-***
-
 This map uses the 
 
 - Knockout.js framework,
