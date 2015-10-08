@@ -40,7 +40,7 @@
 		      </div>
 		      <!-- ko foreach: parkList -->
 		        <!-- ko if: name().toLowerCase().indexOf($parent.filter().toLowerCase()) >= 0 -->
-		        <a data-bind="text: name, click: $parent.display" class="mdl-navigation__link" href=""></a>
+		        <a data-bind="text: name, click: $parent.displayInfo" class="mdl-navigation__link" href=""></a>
 		        <!-- /ko -->
 		      <!-- /ko -->
 		    </nav>
@@ -64,7 +64,7 @@
 	  <!-- Knockout -->
 	  <script src="js/libs/knockout.js"></script>
 	  <!-- Google Maps API and Places Library -->
-	  <script src="http://maps.googleapis.com/maps/api/js?&libraries=places&key=YOUR_API_KEY"></script>
+	  <script src="https://maps.googleapis.com/maps/api/js?&libraries=places&key=YOUR_API_KEY"></script>
 	  <!-- Neighborhood Map data and app -->
 	  <script src="js/data.js"></script>
 	  <script src="js/app.js"></script>
