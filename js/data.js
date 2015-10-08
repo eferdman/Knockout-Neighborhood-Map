@@ -17,7 +17,7 @@ var data = {
       {
         name: "Lake Chabot",
         coords: [37.72840, -122.11357],
-        pid: {placeId: 'ChIJy9LUeD6Oj4ARZs_AFr-YTp0'}
+        pid: {placeId: 'ChIJAbrOKvKOj4ARVv3zYBvxB2g'}
       },
       {
         name: "Redwood Regional Park", 
